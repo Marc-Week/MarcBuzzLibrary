@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarcBuzz", "ClassLibrary1\MarcBuzz.csproj", "{284BEC77-32DD-4079-A62E-2B25047C0EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarcBuzzTests", "MarcBuzzTests\MarcBuzzTests.csproj", "{4327157A-5CBE-45D5-B146-02BFB5331386}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{284BEC77-32DD-4079-A62E-2B25047C0EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284BEC77-32DD-4079-A62E-2B25047C0EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284BEC77-32DD-4079-A62E-2B25047C0EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284BEC77-32DD-4079-A62E-2B25047C0EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4327157A-5CBE-45D5-B146-02BFB5331386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4327157A-5CBE-45D5-B146-02BFB5331386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4327157A-5CBE-45D5-B146-02BFB5331386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4327157A-5CBE-45D5-B146-02BFB5331386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB52E738-7AB3-4445-A221-60235C7E757F}
+	EndGlobalSection
+EndGlobal

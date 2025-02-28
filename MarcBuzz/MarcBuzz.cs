@@ -4,7 +4,6 @@ namespace ClassLibrary1
 {
     public static class MarcBuzz
     {
-
         public static void PrintBuzz()
         {
             Console.Write(RunMarcBuzz());
@@ -25,15 +24,13 @@ namespace ClassLibrary1
 
         public static string ConvertInt(int i)
         {
-            
-                if (i % 3 == 0 && i % 5 == 0)
-                    return "Marc Week";
-                else if (i % 3 == 0)
-                    return "Marc";
-                else if (i % 5 == 0)
-                    return "Week";
+            if (i % 3 == 0 && i % 5 == 0)
+                return "Marc Week";
+            else if (i % 3 == 0)
+                return "Marc";
+            else if (i % 5 == 0)
+                return "Week";
             return i.ToString();
-            
         }
     }
 }

@@ -86,7 +86,6 @@ namespace ClassLibrary1.Tests
             Assert.Equal("Marc", lines[2]);
             Assert.Equal("Week", lines[4]);
             Assert.Equal("Week", lines[99]);
-
         }
     }
 }

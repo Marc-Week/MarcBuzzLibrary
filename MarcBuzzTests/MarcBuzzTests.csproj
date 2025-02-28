@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\MarcBuzz.csproj" />
+    <ProjectReference Include="..\MarcBuzz\MarcBuzz.csproj" />
   </ItemGroup>
 
   <ItemGroup>
